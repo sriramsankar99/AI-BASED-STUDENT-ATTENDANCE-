@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Attendance System - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            width: 350px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 25px;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+            padding: 14px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .login { background: #007bff; }
+        .admin { background: #28a745; }
+        .train { background: #ffc107; color:#000; }
+        .details { background: #6f42c1; }
+        .attendance { background: #dc3545; }
+        .help { background: #343a40; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>AI Attendance Home</h1>
+
+        <a class="login" href="face_rec.py">Student Login (Face Recognition)</a>
+
+        <a class="admin" href="face_recognition.py">Admin (Face Recognition)</a>
+
+        <a class="train" href="train_data.py">Train Data</a>
+
+        <a class="details" href="student_details.py">Student Details</a>
+
+        <a class="attendance" href="attendance.py">Attendance</a>
+
+        <a class="help" href="helpdeck.py">Help Desk</a>
+    </div>
+
+</body>
+</html>
